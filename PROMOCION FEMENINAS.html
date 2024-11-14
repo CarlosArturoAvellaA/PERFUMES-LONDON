@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>M A S F E M E N I N A S</title>        
+    <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="css/font/flaticon.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+</head>
+<Style>
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;            
+}
+.femeninas {
+  display: grid;
+  grid-template-columns: minmax(300px, 2fr) 2fr;
+  grid-auto-rows: 550px ;
+  margin: 10px;
+  border-bottom: 2px solid #ddd;
+  font-size: 22px;
+  top: 0;
+ 
+}
+nav .fragancias-link{
+ font-size: 24px;
+ color:white;
+}
+
+.femeninas-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.info-button {
+  border: none;
+  border-radius: 20px;
+  color-scheme: #333;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 12px 24px;
+
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px); 
+  gap: 26px; ;
+  place-content: center;
+}
+.product-card {
+  width: 160px;
+}
+.product-card img {
+  width: 160px; 
+  height: 160px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.product-info figure  {
+  margin: 0;     
+  
+}   
+.product-info figure img {
+  width: 40px;
+  height: 40px;
+} 
+.product-info div p:nth-child(1) {
+  font-weight: bold; 
+  font-size: var(--md);
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.product-info div p:nth-child(2) {
+  font-size: var(--md);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: red;
+}
+@media (max-width: 640px) {
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat (auto-fill, 140px);   
+}  
+.product-card {
+  width: 140px;
+}
+.product-card img {
+  width: 140px; 
+  height: 140px;   
+ }
+}
+</style>
+
+<body>
+<header>
+  <nav>
+  <section class="nav-logo-container">
+    <h1>PERFUMERIA  LONDON</h1>
+  </section>
+  <section class="fragancias-link"> 
+  <section>    
+    <h2>PROMOCIONES</h2> 
+  </section>
+  </section>  
+  <section>
+    <ul class="iconos-sociales">
+      <li><a href="#"><img src="./Asset/font/Wassap.png" alt="Wassap"></a> </li>
+      <li><a href="#"><img src="./Asset/font/facebook.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="./Asset/font/instagram.png" alt="Instagram"></a></li> 
+      <li><a href="#"><img src="./Asset/font/tiktok.png" alt="tiktok"></a></li> 
+    </ul>
+  </section>
+</nav>
+</header>
+
+<main>
+<section class="femeninas">
+  <div  class="info">
+    <h1 class="info-title"></br></h1>
+    <p class="info-subtitle">Q by Dolce&Gabbana Eau de Parfum es una fragancia femenina con 
+    notas afrutadas que se realza con un fondo amaderado intenso. 
+    El toque fresco que aporta el limón de Sicilia combinado 
+    con el contraste de sabores agridulces de la cereza y la naranja sanguina, 
+    acompañadas por pétalos delicados de jazmín, confieren  al perfume un aroma 
+    refinado y, a la vez, atrevido. Esta fragancia es una creación exclusiva 
+    de Daphne Bugey para Dolce&Gabbana..!</p>               
+             
+  <button class="info-button">$254.800</button>
+  </div>
+    <img class="femeninas-image" src="./Asset/femeninas/Q-BY GABBANA.avif" alt="imagen perfume">
+</section> 
+      
+<section  class="main-container">
+  <div class="cards-container">                   
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/212 VIP ROSE Dama.jpeg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$548.000,00</p>
+    <p>212 Vip Rose x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/ASAD.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Asad x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/LA VIDA ES BELLA  Dama.jpeg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$385.000,00</p>
+    <p>La Vida Es Bella x 100ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/YARA LATAFA.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Yara x 100ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/Untitled.png" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Q Doulce G. x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/AMATISTE.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Amatiste</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/CH2.webp" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>CH Carolina H. 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/dylan versace.jpeg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Dylan Versace x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/AMBER UOD.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Amber Oud x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/DELILA.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Delilah x 100 ml </p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/ORIENTICA ROYAL.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Orientica Royal x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png"  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/Olympea - Paco Rabanne.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Olympea x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/ORIENTICA VIOLET 1.jpg." alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Orientica Violet x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/rose rush paris hilton.jpeg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Rose rush Paris h. x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/LATTAFA MAYA.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Maya Latafa x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/HB XX.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Hugo Boss XX x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png"  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/dilan purple.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Dylan Purple x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/monchino toy 2.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Monchino toy  x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/HARAMAIN G.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Haramain G. x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/HEROERS 212.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Heroes 212 x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/GLORY.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Glory x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png"  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+   <img src="./Asset/femeninas/h.b.extreme woman.jpg" alt="">
+    <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Hugo Extreme x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png"  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/black xs dama.jpeg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Black xs x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/9AM.jpg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>9 AM x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/212VIP  DAMA.webp" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>212 Vip x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png"  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/ligth blue.jpeg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Ligth Blue x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div>
+  <div class="product-card" >       
+    <img src="./Asset/femeninas/RALPH AZUL Dama.jpeg" alt="">
+  <div class="product-info">
+  <div>
+    <p>$485.000,00</p>
+    <p>Ralph azul x 100 ml</p>
+  </div>
+  <figure>
+    <img src="./Asset/font/icono-cart.png "  alt="">
+  </figure>
+  </div>
+  </div> 
+  </div>
+<section>   
+</main>
+
+<footer>
+  <section>
+     <P>Un mundo de fragancias a su alcance..! &copy; 2024 Todos los derechos reservados.</p>
+   </section>      
+ </footer>
+ 
+    
+</body>
+</html>
